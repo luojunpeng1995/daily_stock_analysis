@@ -11,14 +11,14 @@ jobs:
     env:
       # ---------- AI 模型：DeepSeek ----------
       LLM_PROVIDER: deepseek
-      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      DEEPSEEK_API_KEY: ${{ secrets.LLM_DEEPSEEK_API_KEY }}
       DEEPSEEK_MODEL: deepseek-v4-pro
 
       # ---------- 股票列表 ----------
       STOCK_LIST: ${{ secrets.STOCK_LIST }}
 
       # ---------- 邮箱推送 ----------
-      EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+      EMAIL_SENDER: 1194914892@qq.com
       EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
       EMAIL_RECEIVERS: ${{ secrets.EMAIL_RECEIVERS }}
 
